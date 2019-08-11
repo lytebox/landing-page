@@ -1,5 +1,14 @@
-# worshipweb
+# REACT STARTER
+A react starter that just works.
 
-Web-based lyrics display software.
+## Stacks
+* React
+* Redux
+* Styled Components
 
-Live deploy available on [Netlify](https://worshipweb.netlify.com/)
+## How to
+* Clone
+* `cd`
+* `npm install`
+* `npm start`
+* Make the next facebook 🤑
