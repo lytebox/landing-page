@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import whiteBackground from './white-background.png';
-
+import emailBackground from './email-background.png';
 
 export const LandingPageContainer = styled.div`
     .sec1{
@@ -136,7 +136,7 @@ export const LandingPageContainer = styled.div`
         background: linear-gradient(90deg, #006EE5 0%, #388FEE 81.29%);
         border-radius: 61px;
         width: 131px;
-        height: 21px;
+        height: 50px;
     }
     .logos{
         margin-top: 30px;
@@ -182,10 +182,6 @@ export const LandingPageContainer = styled.div`
        margin-top: 70px;
        margin-bottom: 100px;
    }
-   .sec3{
-       height: 100vh;
-       background-color: #006EE5;
-   }
 
    .recommend{
     background: linear-gradient(118.06deg, #FFFFFF 0.03%, #F7F7F7 98.99%);
@@ -216,4 +212,64 @@ export const LandingPageContainer = styled.div`
         margin-right: 5px;
    }
 
+   .sec3{
+       padding-top: 120px;
+       color: #ffffff;
+       height: 150vh;
+       background-color: #006EE5;
+       text-align: center;
+       display: flex;
+       flex-direction:column;
+       align-items: center;
+   }
+
+   .sec3 h1{
+    font-size: 56px;
+    line-height: 71px;
+    margin-bottom: 30px;
+   }
+
+   .sec3 p{
+    font-size: 28px;
+    line-height: 35px;
+    margin-bottom: 30px;
+   }
+
+   .email{
+    width: 984px;
+    height: 350px;
+    border-radius: 6.61125px;
+    background-image: url(${emailBackground});
+    background-size:cover;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+   }
+   .email h4{
+       margin-top: 120px;
+       color: #006EE5;
+       text-align: left;
+       font-size: 28px;
+       line-height: 35px;
+       margin-bottom: 10px;
+   }
+   .email form{
+       text-align: left;
+   }
+   .email form input{
+    width: 499px;
+    height: 60px;
+    background: #D9D9D9;
+    border-radius: 10px;
+   }
+   .email form button{
+    background: #006EE5;
+    border-radius: 5.85938px;
+    color: #FFFFFF;
+    font-size: 22px;
+    line-height: 28px;
+    width: 192.19px;
+    height: 75px;
+    margin-left: 25px;
+   }
 `;

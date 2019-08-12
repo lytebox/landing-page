@@ -70,7 +70,17 @@ class Landingpage extends React.Component {
                   <p>Google Chrome</p></div>
               </div>
           </section>
-          <section className="sec3"></section>
+          <section className="sec3">
+            <h1>We are just getting <br/> started</h1>
+            <p>If you are a local church, music venue, or just a <br/> multimedia enthusiast in general. You’ll love what we’ll be <br/> releasing next.</p>
+            <div className="email">
+              <h4>Email</h4>
+              <form action="#">
+                <input type="email"/>
+                <button type="submit">SIGN UP</button>
+              </form>
+            </div>
+          </section>
       </LandingPageContainer>
     );
   }
