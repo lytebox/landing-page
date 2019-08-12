@@ -1,1 +1,1 @@
-Landing Page lol xd
+Landing Page lol
