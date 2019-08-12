@@ -1,5 +1,5 @@
 import React from "react";
-import HelloWorld from "../../components/HelloWorld";
+import LandingPage from "../../components/LandingPage";
 
 import { AppContainer } from "./style";
 
@@ -7,7 +7,7 @@ class App extends React.Component {
   render() {
     return (
       <AppContainer>
-        <HelloWorld />
+        <LandingPage />
       </AppContainer>
     );
   }
