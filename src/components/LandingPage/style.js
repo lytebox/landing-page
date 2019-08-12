@@ -45,7 +45,7 @@ export const LandingPageContainer = styled.div`
     }
 
     #curve path{
-        fill: #E5E5E5;
+        fill: #ffffff;
     }
 
     .first-buttons{
@@ -97,18 +97,39 @@ export const LandingPageContainer = styled.div`
         margin-top: 130px;
         font-size: 22px;
         line-height: 28px;
-        color: #31393C;
         font-weight: bold;
-        cursor: pointer;
+    }
+    .box p a{
+        color: #31393C;
+        text-decoration: none;
     }
     .sec2{
         width: 100%;
-        height:200vh;
-        background-color: #E5E5E5;
+        height:210vh;
+        background-color: #ffffff;
         padding-top: 250px;
         display: flex;
-        justify-content: center;
-        
+        flex-direction:column;
+        align-items:center;
+        text-align: center;
+    }
+
+    .sec2 h1{
+        font-size: 60px;
+        line-height: 75px;
+        text-align: center;
+
+        height: 142px;
+        left: 375px;
+        top: 1339px;
+        margin-bottom: 30px;
+        color: #006EE5;
+    }
+
+    .sec2 p{
+        font-size: 28px;
+        line-height: 35px;
+        color: #000000;
     }
 
     .rectangle{
@@ -117,5 +138,82 @@ export const LandingPageContainer = styled.div`
         width: 131px;
         height: 21px;
     }
+    .logos{
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-evenly;
+        width:100%;
+    }
+    .feature{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .feature h3{
+        font-size: 28px;
+        margin-bottom: 0;
+    }
+    .feature p{
+        font-size: 22px;
+        margin-bottom: 25px;
+    }
+    .butt{
+        width: 192.19px;
+        height: 75px;
+        border-radius: 5.85938px;
+        font-size: 22px;
+        line-height: 28px;
+        color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .try{
+        background: #006EE5;
+        cursor: pointer;
+    }
+    .soon{
+        background: #8E8E8E;
+    }
+
+   .more{
+       margin-top: 70px;
+       margin-bottom: 100px;
+   }
+   .sec3{
+       height: 100vh;
+       background-color: #006EE5;
+   }
+
+   .recommend{
+    background: linear-gradient(118.06deg, #FFFFFF 0.03%, #F7F7F7 98.99%);
+    box-shadow: 0px 1.89379px 12.3097px rgba(0, 0, 0, 0.09);
+    border-radius: 2.36724px;
+    width: 352.25px;
+    height: 300px;
+    position: relative;
+    bottom:-50px;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    
+   }
+   .recommend p{
+    color: #006EE5;
+    font-size: 18px;
+    margin: 10px;
+    font-weight: bold;
+   }
+   .chrome{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+   .chrome svg{
+        margin-right: 5px;
+   }
 
 `;
