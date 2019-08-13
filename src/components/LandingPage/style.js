@@ -271,5 +271,6 @@ export const LandingPageContainer = styled.div`
     width: 192.19px;
     height: 75px;
     margin-left: 25px;
+    cursor: pointer;
    }
 `;
