@@ -1,5 +1,28 @@
+@font-face {
+  font-family: "Circular";
+  src: url("./assets/fonts/circular-medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: "normal";
+}
+@font-face {
+  font-family: "Circular";
+  src: url("./assets/fonts/circular-bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: "normal";
+}
+@font-face {
+  font-family: "Circular";
+  src: url("./assets/fonts/circular-book.ttf") format("truetype");
+  font-weight: lighter;
+  font-style: "normal";
+}
+/* @font-face {
+  font-family: "Circular";
+  src: url("./assets/fonts/circular-black.ttf") format("truetype");
+  font-weight: black;
+  font-style: "normal";
+} */
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
 }
