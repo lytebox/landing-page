@@ -6,7 +6,6 @@ export const LandingPageContainer = styled.div`
     *{
         font-family: "Circular";
     }
-    
     section{
         min-width: 1012px;
     }
@@ -29,7 +28,7 @@ export const LandingPageContainer = styled.div`
   .first-sentences {
     position: relative;
     top: 30px;
-    width: 100%;
+    width: 800px;
 
     display: flex;
     flex-direction: column;
@@ -44,6 +43,7 @@ export const LandingPageContainer = styled.div`
   }
 
   .first-sentences p {
+    width: 550px;
     font-size: 25px;
     line-height: 35px;
   }
@@ -95,6 +95,8 @@ export const LandingPageContainer = styled.div`
     text-align: center;
   }
   .box h1 {
+    margin: 0 auto;
+    width: 600px;
     color: #006ee5;
     font-size: 48px;
     line-height: 61px;
@@ -121,6 +123,7 @@ export const LandingPageContainer = styled.div`
   }
 
   .sec2 h1 {
+    width: 700px;
     font-size: 60px;
     line-height: 75px;
     text-align: center;
@@ -137,6 +140,23 @@ export const LandingPageContainer = styled.div`
     font-size: 28px;
     line-height: 35px;
     color: #000000;
+  }
+  .sec2 > p{
+      width: 700px;
+  }
+  .sec2 .goodbye{
+      width: 800px;
+  }
+
+  .sec2 .tools{
+    width: 750px;
+  }
+
+  .sec3 h1{
+      width: 600px;
+  }
+  .sec3 p{
+      width: 730px;
   }
 
   .rectangle {
@@ -277,6 +297,12 @@ export const LandingPageContainer = styled.div`
     height: 75px;
     margin-left: 25px;
     cursor: pointer;
+   }
+
+   @media screen and (max-width: 943px){
+        section{
+            min-width: 943px;
+        }
    }
 
 `;

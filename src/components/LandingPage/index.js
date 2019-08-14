@@ -10,10 +10,10 @@ class Landingpage extends React.Component {
         <section className="sec1">
           <div className="first-sentences">
             <h1>
-              Modern multimedia suite <br /> for agile teams
+              Modern multimedia suite for agile teams
             </h1>
             <p>
-              The world’s first in-browser multimedia suite for <br /> both
+              The world’s first in-browser multimedia suite for both
               professional and home uses.
             </p>
             <div className="first-buttons">
@@ -27,7 +27,7 @@ class Landingpage extends React.Component {
           </div>
           <div className="box">
             <h1>
-              Our lyric displayer is open <br /> for public beta
+              Our lyric displayer is open for public beta
             </h1>
             <p>
               <a href="#">Find out more</a>
@@ -49,11 +49,11 @@ class Landingpage extends React.Component {
         <section className="sec2">
           <div className="rectangle" />
           <h1>
-            Tools like you’ve never <br /> seen before
+            Tools like you’ve never seen before
           </h1>
           <p>
-            From your essential multimedia tools like lyric-displayer <br /> and
-            live visual generator to event specific like Bible <br /> verses
+            From your essential multimedia tools like lyric-displayer and
+            live visual generator to event specific like Bible verses
             displayer. We got you.
           </p>
           <div className="logos">
@@ -137,12 +137,12 @@ class Landingpage extends React.Component {
           </div>
           <p className="more">... and more to come.</p>
           <div className="rectangle" />
-          <h1>
-            Say goodbye to ridiculous <br /> hardware specs
+          <h1 className="goodbye">
+            Say goodbye to ridiculous hardware specs
           </h1>
-          <p>
-            All of our tools run in your browser. Say goodbye to all of <br />{" "}
-            those expensive and ridiculously demanding softwares. <br /> Your
+          <p className="tools">
+            All of our tools run in your browser. Say goodbye to all of
+            those expensive and ridiculously demanding softwares. Your
             browser is all you need to run our tools suite.
           </p>
           <div className="recommend">
@@ -166,11 +166,11 @@ class Landingpage extends React.Component {
         </section>
         <section className="sec3">
           <h1>
-            We are just getting <br /> started
+            We are just getting started
           </h1>
           <p>
-            If you are a local church, music venue, or just a <br /> multimedia
-            enthusiast in general. You’ll love what we’ll be <br /> releasing
+            If you are a local church, music venue, or just a multimedia
+            enthusiast in general. You’ll love what we’ll be releasing
             next.
           </p>
           <div className="email">
