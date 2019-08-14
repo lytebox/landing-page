@@ -1,7 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { LandingPageContainer } from "./style";
-import whiteBackground from "./white-background.png";
 
 class Landingpage extends React.Component {
   render() {

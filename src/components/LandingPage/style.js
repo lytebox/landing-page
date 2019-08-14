@@ -210,11 +210,12 @@ export const LandingPageContainer = styled.div`
   }
 
   .recommend {
+    margin: 0 auto;
     background: linear-gradient(118.06deg, #ffffff 0.03%, #f7f7f7 98.99%);
     box-shadow: 0px 1.89379px 12.3097px rgba(0, 0, 0, 0.09);
     border-radius: 2.36724px;
     width: 352.25px;
-    height: 300px;
+    height: 250px;
     position: relative;
     bottom: -50px;
     display: flex;
@@ -297,12 +298,6 @@ export const LandingPageContainer = styled.div`
     height: 75px;
     margin-left: 25px;
     cursor: pointer;
-   }
-
-   @media screen and (max-width: 943px){
-        section{
-            min-width: 943px;
-        }
    }
 
 `;
