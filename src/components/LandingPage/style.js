@@ -3,6 +3,10 @@ import whiteBackground from './white-background.png';
 import emailBackground from './email-background.png';
 
 export const LandingPageContainer = styled.div`
+
+    section{
+        min-width: 1012px;
+    }
     .sec1{
     position: relative;
     margin: 0;
@@ -273,4 +277,5 @@ export const LandingPageContainer = styled.div`
     margin-left: 25px;
     cursor: pointer;
    }
+
 `;
