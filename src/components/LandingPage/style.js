@@ -3,16 +3,15 @@ import whiteBackground from "./white-background.png";
 import emailBackground from "./email-background.png";
 
 export const LandingPageContainer = styled.div`
-<<<<<<< HEAD
-
+    *{
+        font-family: "Circular";
+    }
+    
     section{
         min-width: 1012px;
     }
-    .sec1{
-=======
-  font-family: "Circular";
+    
   .sec1 {
->>>>>>> 6a64d07d39887dd1e49947254a753b61c825cb42
     position: relative;
     margin: 0;
     padding: 0;
