@@ -1,4 +1,6 @@
 import styled from 'styled-components';
+import logo from './logo.svg';
+import logoMobile from './logo-mobile.svg';
 
 export const NavBarContainer = styled.div`
     nav{
@@ -9,7 +11,19 @@ export const NavBarContainer = styled.div`
         display: flex;
         align-items: flex-end;
         justify-content: space-between;
+        padding-top:10px;
         
+    }
+    .logo{
+            min-width: 256px;
+            height: 100px;
+            background-image: url(${logo});
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+
+    .burger{
+        display: none;
     }
     ul{
         list-style:none;
@@ -24,5 +38,22 @@ export const NavBarContainer = styled.div`
         color: white;
         font-size: 18px;
         line-height: 23px;
+    }
+
+    @media screen and (max-width:943px){
+        ul{
+            display:none;
+        }
+        .logo{
+            background-image: url(${logoMobile});
+        }
+        .burger{
+            display: block;
+        }
+        .burger svg{
+            width: 100px;
+            height: 100px;
+        }
+        
     }
 `;
