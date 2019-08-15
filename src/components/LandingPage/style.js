@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import whiteBackground from "./white-background.png";
 import emailBackground from "./email-background.png";
+import unnamed from "./unnamed.png";
 
 export const LandingPageContainer = styled.div`
     *{
@@ -113,7 +114,6 @@ export const LandingPageContainer = styled.div`
   }
   .sec2 {
     width: 100%;
-    height: 210vh;
     background-color: #ffffff;
     padding-top: 250px;
     display: flex;
@@ -148,6 +148,10 @@ export const LandingPageContainer = styled.div`
       width: 800px;
   }
 
+  .sec2 .announce{
+    width: 720px;
+  }
+
   .sec2 .tools{
     width: 750px;
   }
@@ -162,8 +166,8 @@ export const LandingPageContainer = styled.div`
   .rectangle {
     background: linear-gradient(90deg, #006ee5 0%, #388fee 81.29%);
     border-radius: 61px;
+    height: 25px;
     width: 131px;
-    height: 50px;
   }
   .logos {
     margin-top: 30px;
@@ -208,6 +212,16 @@ export const LandingPageContainer = styled.div`
     margin-top: 70px;
     margin-bottom: 100px;
   }
+  .venues{
+    display:flex;
+    margin-bottom:50px;
+  }
+  .venue{
+    height:325px;
+    width:325px;
+    background-image: url(${unnamed});
+    background-size: cover;
+  }
 
   .recommend {
     margin: 0 auto;
@@ -215,7 +229,7 @@ export const LandingPageContainer = styled.div`
     box-shadow: 0px 1.89379px 12.3097px rgba(0, 0, 0, 0.09);
     border-radius: 2.36724px;
     width: 352.25px;
-    height: 250px;
+    height: 180px;
     position: relative;
     bottom: -50px;
     display: flex;
@@ -241,7 +255,6 @@ export const LandingPageContainer = styled.div`
   .sec3 {
     padding-top: 120px;
     color: #ffffff;
-    height: 150vh;
     background-color: #006ee5;
     text-align: center;
     display: flex;
@@ -298,6 +311,17 @@ export const LandingPageContainer = styled.div`
     height: 75px;
     margin-left: 25px;
     cursor: pointer;
+   }
+   .bottom{
+     margin-top: 200px;
+     margin-bottom: 100px;
+   }
+   .bottom > p{
+     margin:15px;
+   }
+   .bottom > div > svg{
+      margin: 0 10px 0 10px;
+      cursor: pointer;
    }
 
 `;
