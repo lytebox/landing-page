@@ -52,7 +52,8 @@ export const NavBarContainer = styled.div`
         }
         .burger svg{
             width: 100px;
-            height: 100px;
+            height: 50px;
+            cursor: pointer;
         }
         
     }

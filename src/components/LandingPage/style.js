@@ -1,14 +1,12 @@
 import styled from "styled-components";
 import whiteBackground from "./white-background.png";
 import emailBackground from "./email-background.png";
+import unnamed from "./unnamed.png";
+
 
 export const LandingPageContainer = styled.div`
     *{
         font-family: "Circular";
-    }
-    
-    section{
-        min-width: 1012px;
     }
     
   .sec1 {
@@ -29,7 +27,7 @@ export const LandingPageContainer = styled.div`
   .first-sentences {
     position: relative;
     top: 30px;
-    width: 100%;
+    width: 800px;
 
     display: flex;
     flex-direction: column;
@@ -42,10 +40,18 @@ export const LandingPageContainer = styled.div`
 
     z-index: 1;
   }
+  .first-sentences > h1{
+    margin-bottom:0;
+  }
 
   .first-sentences p {
     font-size: 25px;
     line-height: 35px;
+  }
+  .first-sentences > p{
+    font-size: 30px;
+    width: 660px;
+    margin: 50px;
   }
   #curve {
     position: absolute;
@@ -65,7 +71,7 @@ export const LandingPageContainer = styled.div`
     margin-left: 40px;
     margin-right: 40px;
     height: 75px;
-    width: 250px;
+    width: 220px;
     border-radius: 5px;
     display: flex;
     align-items: center;
@@ -95,6 +101,8 @@ export const LandingPageContainer = styled.div`
     text-align: center;
   }
   .box h1 {
+    margin: 0 auto;
+    width: 600px;
     color: #006ee5;
     font-size: 48px;
     line-height: 61px;
@@ -111,7 +119,6 @@ export const LandingPageContainer = styled.div`
   }
   .sec2 {
     width: 100%;
-    height: 210vh;
     background-color: #ffffff;
     padding-top: 250px;
     display: flex;
@@ -121,6 +128,7 @@ export const LandingPageContainer = styled.div`
   }
 
   .sec2 h1 {
+    width: 700px;
     font-size: 60px;
     line-height: 75px;
     text-align: center;
@@ -138,12 +146,33 @@ export const LandingPageContainer = styled.div`
     line-height: 35px;
     color: #000000;
   }
+  .sec2 > p{
+      width: 700px;
+  }
+  .sec2 .goodbye{
+      width: 800px;
+  }
+
+  .sec2 .announce{
+    width: 720px;
+  }
+
+  .sec2 .tools{
+    width: 750px;
+  }
+
+  .sec3 h1{
+      width: 600px;
+  }
+  .sec3 p{
+      width: 730px;
+  }
 
   .rectangle {
     background: linear-gradient(90deg, #006ee5 0%, #388fee 81.29%);
     border-radius: 61px;
+    height: 25px;
     width: 131px;
-    height: 50px;
   }
   .logos {
     margin-top: 30px;
@@ -188,13 +217,24 @@ export const LandingPageContainer = styled.div`
     margin-top: 70px;
     margin-bottom: 100px;
   }
+  .venues{
+    display:flex;
+    margin-bottom:50px;
+  }
+  .venue{
+    height:325px;
+    width:325px;
+    background-image: url(${unnamed});
+    background-size: cover;
+  }
 
   .recommend {
+    margin: 0 auto;
     background: linear-gradient(118.06deg, #ffffff 0.03%, #f7f7f7 98.99%);
     box-shadow: 0px 1.89379px 12.3097px rgba(0, 0, 0, 0.09);
     border-radius: 2.36724px;
     width: 352.25px;
-    height: 300px;
+    height: 180px;
     position: relative;
     bottom: -50px;
     display: flex;
@@ -220,7 +260,6 @@ export const LandingPageContainer = styled.div`
   .sec3 {
     padding-top: 120px;
     color: #ffffff;
-    height: 150vh;
     background-color: #006ee5;
     text-align: center;
     display: flex;
@@ -278,5 +317,39 @@ export const LandingPageContainer = styled.div`
     margin-left: 25px;
     cursor: pointer;
    }
+   .bottom{
+     margin-top: 200px;
+     margin-bottom: 100px;
+   }
+   .bottom > p{
+     margin:15px;
+   }
+   .bottom > div > svg{
+      margin: 0 10px 0 10px;
+      cursor: pointer;
+   }
 
+   @media screen and (max-width:943px){
+     .first-sentences > h1{
+       font-size: 50px;
+       width: 600px;
+     }
+      .first-sentences > p{
+        width: 450px;
+      }
+      .box{
+        width: 750px;
+        height: 400px;
+        bottom: -50px;
+      }
+      .box h1 {
+      width: 500px;
+      font-size: 40px;
+      margin-top: 130px;
+    }
+    .box p {
+      margin-top: 80px;
+    }
+
+  }
 `;
