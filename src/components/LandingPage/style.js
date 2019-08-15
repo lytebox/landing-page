@@ -217,6 +217,9 @@ export const LandingPageContainer = styled.div`
     margin-top: 70px;
     margin-bottom: 100px;
   }
+  .more-mobile{
+    display: none;
+  }
   .venues{
     display:flex;
     margin-bottom:50px;
@@ -347,9 +350,36 @@ export const LandingPageContainer = styled.div`
       font-size: 40px;
       margin-top: 130px;
     }
-    .box p {
-      margin-top: 80px;
-    }
+      .box p {
+        margin-top: 80px;
+      }
+      .sec2 > h1{
+        width: 600px
+      }
+      .sec2 > p{
+        font-size: 45px;
+        line-height: 50px;
+      }
+      .logos {
+        display: grid;
+        grid-template-columns: 300px 300px;
+        width: 100%;
 
+      }
+      .feature{
+        width: 300px;
+        margin-bottom: 50px;
+      }
+
+      .more{
+        display: none;
+      }
+      .logos .more-mobile{
+        width: 300px;
+        display: block;
+        font-size: 45px;
+        display: flex;
+        align-items: center;
+      }
   }
 `;

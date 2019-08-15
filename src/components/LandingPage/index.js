@@ -133,6 +133,7 @@ class Landingpage extends React.Component {
               <p>Live visual engine</p>
               <div className="butt soon">Coming soon</div>
             </div>
+            <p className="more-mobile">... and more to come.</p>
           </div>
           <p className="more">... and more to come.</p>
           <div className="rectangle" />
