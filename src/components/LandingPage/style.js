@@ -7,6 +7,7 @@ import unnamed from "./unnamed.png";
 export const LandingPageContainer = styled.div`
     *{
         font-family: "Circular";
+        box-sizing: border-box;
     }
     
   .sec1 {

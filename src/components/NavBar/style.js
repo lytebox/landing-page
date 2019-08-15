@@ -4,10 +4,12 @@ import logoMobile from './logo-mobile.svg';
 
 export const NavBarContainer = styled.div`
     nav{
+        box-sizing: border-box;
         font-family: "Circular";
         background-color: #006ee5;
         height: 110px;
-        padding: 0 50px 0 50px;
+        width: 100%;
+        padding: 0 30px 0 30px;
         display: flex;
         align-items: flex-end;
         justify-content: space-between;
