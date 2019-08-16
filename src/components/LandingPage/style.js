@@ -9,7 +9,9 @@ export const LandingPageContainer = styled.div`
         font-family: "Circular";
         box-sizing: border-box;
     }
-    
+  section{
+    width:100%;
+  }
   .sec1 {
     position: relative;
     margin: 0;
@@ -91,7 +93,7 @@ export const LandingPageContainer = styled.div`
   }
 
   .box {
-    width: 983.75px;
+    width: 940.75px;
     height: 517px;
     position: absolute;
     bottom: -120px;
@@ -148,7 +150,7 @@ export const LandingPageContainer = styled.div`
     color: #000000;
   }
   .sec2 > p{
-      width: 700px;
+      width: 100%;
   }
   .sec2 .goodbye{
       width: 800px;
@@ -294,7 +296,7 @@ export const LandingPageContainer = styled.div`
   }
 
   .email {
-    width: 984px;
+    width: 940px;
     height: 350px;
     border-radius: 6.61125px;
     background-image: url(${emailBackground});
@@ -334,6 +336,11 @@ export const LandingPageContainer = styled.div`
    .bottom{
      margin-top: 200px;
      margin-bottom: 100px;
+     display: flex;
+     flex-direction:column;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
    }
    .bottom > p{
      margin:15px;
@@ -347,6 +354,9 @@ export const LandingPageContainer = styled.div`
    }
 
    @media screen and (max-width:943px){
+     .first-sentences{
+       width:100%;
+     }
      .first-sentences > h1{
        font-size: 50px;
        width: 600px;
@@ -355,30 +365,34 @@ export const LandingPageContainer = styled.div`
         width: 450px;
       }
       .box{
-        width: 750px;
-        height: 400px;
-        bottom: -50px;
+        width: 85%;
+        height: 350px;
+        bottom: 0px;
       }
       .box h1 {
-      width: 500px;
+      width: 70%;
       font-size: 40px;
-      margin-top: 130px;
+      margin-top: 110px;
     }
       .box p {
-        margin-top: 80px;
+        margin-top: 55px;
+      }
+      .sec2{
+        padding-top:100px;
       }
       .sec2 > h1{
         width: 600px
       }
       .sec2 > p{
-        font-size: 45px;
+        font-size: 35px;
+        width: 60%;
         line-height: 50px;
       }
       .logos {
         display: grid;
         grid-template-columns: 300px 300px;
         width: 100%;
-
+        margin-bottom: 60px;
       }
       .feature{
         width: 300px;
@@ -395,25 +409,27 @@ export const LandingPageContainer = styled.div`
         display: flex;
         align-items: center;
       }
-      .sec2 .announce{
-        width: 800px;
-      }
+
       .venue{
         height:250px;
-        width:250px;
+        width: 250px;
       }
 
       .sec2 .tools{
-        width: 800px;
+        width: 70%;
         margin-bottom:-80px;
+      }
+      .sec2 .goodbye{
+          width: 100%;
+          margin-bottom: 30px;
       }
 
       .recommend {
-        width: 700px;
+        width: 70%;
         height: 350px;
         position: relative;
         bottom: -150px;
-        margin-bottom: 100px;
+        margin-bottom: 0px;
       }
       .recommend p {
         font-size: 50px;
@@ -435,14 +451,17 @@ export const LandingPageContainer = styled.div`
       .chrome-mobile{
         display: block;
       }
-      
+      .sec3{
+        padding-top: 250px;
+      }
       .sec3 p{
+        width:75%;
         font-size: 40px;
         line-height: 50px;
         margin-bottom: 100px;
       }
       .email {
-        width: 800px;
+        width: 85%;
         height: 270px;
       }
       .email h4 {
@@ -450,12 +469,12 @@ export const LandingPageContainer = styled.div`
         font-size: 30px;
       }
       .email form input {
-        width: 400px;
+        width: 65%;
         height: 50px;
       }
       .email form button {
-        width: 150px;
-        height: 60px;
+        width: 20%;
+        height: 55px;
       }
 
       .bottom{
