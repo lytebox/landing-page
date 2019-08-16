@@ -150,7 +150,7 @@ export const LandingPageContainer = styled.div`
     color: #000000;
   }
   .sec2 > p{
-      width: 100%;
+      width: 700px;
   }
   .sec2 .goodbye{
       width: 800px;
@@ -356,10 +356,10 @@ export const LandingPageContainer = styled.div`
      }
      .first-sentences > h1{
        font-size: 50px;
-       width: 100%;
+       width: 70%;
      }
       .first-sentences > p{
-        width: 100%;
+        width: 50%;
       }
       .first-buttons{
         width:100%;
@@ -370,7 +370,7 @@ export const LandingPageContainer = styled.div`
         bottom: 0px;
       }
       .box h1 {
-      width: 70%;
+      width: 65%;
       font-size: 40px;
       margin-top: 110px;
     }
@@ -381,7 +381,9 @@ export const LandingPageContainer = styled.div`
         padding-top:100px;
       }
       .sec2 > h1{
-        width: 100%;
+        width: 60%;
+        margin-top: 60px;
+        margin-bottom: 50px;
       }
       .sec2 > p{
         font-size: 35px;
@@ -417,6 +419,7 @@ export const LandingPageContainer = styled.div`
 
       .sec2 .tools{
         width: 70%;
+        margin-top: 65px;
         margin-bottom:-80px;
       }
 
@@ -425,11 +428,11 @@ export const LandingPageContainer = styled.div`
       }
       
       .sec2 .goodbye{
-          width: 100%;
+          width: 90%;
           margin-bottom: 30px;
       }
       .sec2 .announce{
-        width: 100%;
+        width: 75%;
       }
 
       .recommend {
@@ -469,7 +472,7 @@ export const LandingPageContainer = styled.div`
         margin-bottom: 100px;
       }
       .sec3 h1{
-        width:100%;
+        width:70%;
       }
       .email {
         width: 85%;
@@ -503,6 +506,23 @@ export const LandingPageContainer = styled.div`
         display: inline-block;
       }
       
-      
   }
+  @media screen and (max-width:750px){
+    .recommend p {
+        font-size: 40px;
+      }
+      .chrome svg {
+        margin-left: 20px;
+      }
+  }
+  @media screen and (max-width:684px){
+      .first-sentences > h1{
+        font-size: 40px;
+        line-height: 50px;
+      }
+      .first-sentences > p{
+        font-size: 25px;
+      }
+  }
+  
 `;

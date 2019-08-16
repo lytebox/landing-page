@@ -17,7 +17,7 @@ export const NavBarContainer = styled.div`
         
     }
     .logo{
-            min-width: 256px;
+            width: 256px;
             height: 100px;
             background-image: url(${logo});
             background-repeat: no-repeat;
@@ -47,6 +47,7 @@ export const NavBarContainer = styled.div`
             display:none;
         }
         .logo{
+            min-width: 50%;
             background-image: url(${logoMobile});
         }
         .burger{
