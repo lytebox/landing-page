@@ -153,6 +153,11 @@ export const LandingPageContainer = styled.div`
   .sec2 .goodbye{
       width: 800px;
   }
+  
+  .sec2 .loved{
+    margin-bottom:0;
+    height: 100px;
+  }
 
   .sec2 .announce{
     width: 720px;
@@ -223,7 +228,9 @@ export const LandingPageContainer = styled.div`
   }
   .venues{
     display:flex;
+    width: 100%;
     margin-bottom:50px;
+    justify-content:center;
   }
   .venue{
     height:325px;
@@ -259,6 +266,9 @@ export const LandingPageContainer = styled.div`
   }
   .chrome svg {
     margin-right: 5px;
+  }
+  .chrome-mobile{
+    display: none;
   }
 
   .sec3 {
@@ -332,6 +342,9 @@ export const LandingPageContainer = styled.div`
       margin: 0 10px 0 10px;
       cursor: pointer;
    }
+   .logo-mobile{
+     display: none;
+   }
 
    @media screen and (max-width:943px){
      .first-sentences > h1{
@@ -382,5 +395,84 @@ export const LandingPageContainer = styled.div`
         display: flex;
         align-items: center;
       }
+      .sec2 .announce{
+        width: 800px;
+      }
+      .venue{
+        height:250px;
+        width:250px;
+      }
+
+      .sec2 .tools{
+        width: 800px;
+        margin-bottom:-80px;
+      }
+
+      .recommend {
+        width: 700px;
+        height: 350px;
+        position: relative;
+        bottom: -150px;
+        margin-bottom: 100px;
+      }
+      .recommend p {
+        font-size: 50px;
+        line-height: 70px;
+        margin: 10px;
+      }
+      .chrome {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .chrome svg {
+        margin-right: 5px;
+        margin-left: 60px;
+      }
+      .chrome-pc{
+        display: none;
+      }
+      .chrome-mobile{
+        display: block;
+      }
+      
+      .sec3 p{
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 100px;
+      }
+      .email {
+        width: 800px;
+        height: 270px;
+      }
+      .email h4 {
+        margin-top: 70px;
+        font-size: 30px;
+      }
+      .email form input {
+        width: 400px;
+        height: 50px;
+      }
+      .email form button {
+        width: 150px;
+        height: 60px;
+      }
+
+      .bottom{
+        margin-top: 100px;
+        margin-bottom: 70px;
+      }
+      .bottom > p{
+        margin:50px;
+        font-size: 30px;
+      }
+      .logo-pc{
+        display: none;
+      }
+      .logo-mobile{
+        display: inline-block;
+      }
+      
+      
   }
 `;
