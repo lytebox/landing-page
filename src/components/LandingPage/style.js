@@ -171,6 +171,9 @@ export const LandingPageContainer = styled.div`
 
   .sec3 h1{
       width: 600px;
+      font-size: 56px;
+      line-height: 71px;
+      margin-bottom: 30px;
   }
   .sec3 p{
       width: 730px;
@@ -283,12 +286,6 @@ export const LandingPageContainer = styled.div`
     align-items: center;
   }
 
-  .sec3 h1 {
-    font-size: 56px;
-    line-height: 71px;
-    margin-bottom: 30px;
-  }
-
   .sec3 p {
     font-size: 28px;
     line-height: 35px;
@@ -359,10 +356,13 @@ export const LandingPageContainer = styled.div`
      }
      .first-sentences > h1{
        font-size: 50px;
-       width: 600px;
+       width: 100%;
      }
       .first-sentences > p{
-        width: 450px;
+        width: 100%;
+      }
+      .first-buttons{
+        width:100%;
       }
       .box{
         width: 85%;
@@ -381,7 +381,7 @@ export const LandingPageContainer = styled.div`
         padding-top:100px;
       }
       .sec2 > h1{
-        width: 600px
+        width: 100%;
       }
       .sec2 > p{
         font-size: 35px;
@@ -390,12 +390,12 @@ export const LandingPageContainer = styled.div`
       }
       .logos {
         display: grid;
-        grid-template-columns: 300px 300px;
+        grid-template-columns: 50% 50%;
         width: 100%;
         margin-bottom: 60px;
       }
       .feature{
-        width: 300px;
+        width: 90%;
         margin-bottom: 50px;
       }
 
@@ -403,7 +403,7 @@ export const LandingPageContainer = styled.div`
         display: none;
       }
       .logos .more-mobile{
-        width: 300px;
+        width: 90%;
         display: block;
         font-size: 45px;
         display: flex;
@@ -419,9 +419,17 @@ export const LandingPageContainer = styled.div`
         width: 70%;
         margin-bottom:-80px;
       }
+
+      .sec2 .loved{
+        width:100%;
+      }
+      
       .sec2 .goodbye{
           width: 100%;
           margin-bottom: 30px;
+      }
+      .sec2 .announce{
+        width: 100%;
       }
 
       .recommend {
@@ -459,6 +467,9 @@ export const LandingPageContainer = styled.div`
         font-size: 40px;
         line-height: 50px;
         margin-bottom: 100px;
+      }
+      .sec3 h1{
+        width:100%;
       }
       .email {
         width: 85%;
