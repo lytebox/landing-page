@@ -18,7 +18,7 @@ export const LandingPageContainer = styled.div`
     padding: 0;
     background: #006ee5;
     width: 100%;
-    height: 130vh;
+    height: 950px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -511,9 +511,33 @@ export const LandingPageContainer = styled.div`
     .recommend p {
         font-size: 40px;
       }
-      .chrome svg {
-        margin-left: 20px;
-      }
+    .chrome svg {
+      margin-left: 20px;
+    }
+    .email form button{
+      font-size: 18px;
+    }
+
+    
+  }
+
+  @media screen and (max-width:708px){
+    .box h1{
+      font-size: 30px;
+      line-height: 45px;
+    }
+    .box p{
+      font-size: 21px;
+    }
+    .sec2 h1{
+      font-size: 45px;
+    }
+    .sec2 p{
+      font-size: 25px;
+    }
+    .sec3 p{
+      font-size: 30px;
+    }
   }
   @media screen and (max-width:684px){
       .first-sentences > h1{
@@ -523,6 +547,46 @@ export const LandingPageContainer = styled.div`
       .first-sentences > p{
         font-size: 25px;
       }
+    
+  }
+  @media screen and (max-width:637px){
+    .first-sentences > h1{
+      width: 80%;
+    }
+    .first-sentences > p{
+      width: 70%;
+    }
+    .first-buttons div{
+      height: 70px;
+      width: 30%;
+    }
+    .box{
+      height: 300px;
+    }
+    .sec1{
+      height: 800px;
+    }
+    .sec2 h1{
+      width: 85%;
+      font-size: 40px;
+    }
+    .sec2 p{
+      width: 75%;
+      margin-top:0;
+    }
+    .sec2 .tools{
+      margin-top: 20px;
+    }
+    .sec3 h1{
+      font-size: 45px;
+    }
+    .sec3 p{
+      font-size: 25px;
+    }
+    .email form button{
+      font-size: 15px;
+      height: 40px;
+    }
   }
   
 `;
