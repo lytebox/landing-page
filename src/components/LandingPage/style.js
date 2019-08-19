@@ -205,7 +205,7 @@ export const LandingPageContainer = styled.div`
     font-size: 22px;
     margin-bottom: 25px;
   }
-  .butt {
+  .logos .feature .butt {
     width: 192.19px;
     height: 75px;
     border-radius: 5.85938px;
@@ -298,7 +298,7 @@ export const LandingPageContainer = styled.div`
     border-radius: 6.61125px;
     background-image: url(${emailBackground});
     background-size: cover;
-    padding-left: 50px;
+    padding-left: 5%;
     display: flex;
     flex-direction: column;
   }
@@ -390,6 +390,9 @@ export const LandingPageContainer = styled.div`
         width: 60%;
         line-height: 50px;
       }
+      .sec2 h1{
+        font-size: 45px;
+      }
       .logos {
         display: grid;
         grid-template-columns: 50% 50%;
@@ -397,8 +400,11 @@ export const LandingPageContainer = styled.div`
         margin-bottom: 60px;
       }
       .feature{
-        width: 90%;
+        width: 100%;
         margin-bottom: 50px;
+      }
+      .logos .feature .butt {
+        width: 60%;
       }
 
       .more{
@@ -413,8 +419,10 @@ export const LandingPageContainer = styled.div`
       }
 
       .venue{
-        height:250px;
-        width: 250px;
+        width: 30%;
+        height: 200px;
+        background-size: 100%;
+        background-repeat: no-repeat;
       }
 
       .sec2 .tools{
@@ -535,6 +543,12 @@ export const LandingPageContainer = styled.div`
     .sec2 p{
       font-size: 25px;
     }
+    .recommend p{
+      font-size: 35px;
+    }
+    .recommend { 
+      height: 300px;
+    }
     .sec3 p{
       font-size: 30px;
     }
@@ -550,6 +564,9 @@ export const LandingPageContainer = styled.div`
     
   }
   @media screen and (max-width:637px){
+    .box h1{
+      margin-top:80px;
+    }
     .first-sentences > h1{
       width: 80%;
     }
@@ -559,6 +576,9 @@ export const LandingPageContainer = styled.div`
     .first-buttons div{
       height: 70px;
       width: 30%;
+    }
+    .first-buttons div p{
+      font-size: 20px;
     }
     .box{
       height: 300px;
@@ -577,15 +597,151 @@ export const LandingPageContainer = styled.div`
     .sec2 .tools{
       margin-top: 20px;
     }
+    .logos .feature p{
+      font-size: 20px;
+      width: 100%;
+    }
+    .logos .feature .butt {
+        height: 70px;
+        font-size: 20px;
+      }
+    .recommend{
+      height: 250px;
+    }
+    .recommend .chrome svg{
+      margin-top: -5px;
+    }
+    .sec3 h1{
+      font-size: 45px;
+    }
+    .sec2  p{
+      font-size: 25px;
+      line-height: 40px;
+    }
+    .sec3 p{
+      font-size: 25px;
+    }
+    .email h4{
+      font-size: 25px;
+    }
+    .email form button{
+      font-size: 15px;
+      height: 40px;
+    }
+  }
+  @media screen and (max-width:537px){
+    .sec1{
+      height: 750px;
+    }
+    .first-sentences > h1{
+      font-size: 32px;
+    }
+    .first-sentences > p{
+      
+      font-size: 22px;
+    }
+    .box{
+      height: 250px;
+      
+    }
+    .box h1{
+      font-size: 25px;
+      line-height:30px;
+    }
+    .box p{
+      font-size: 17px;
+    }
+    .sec2 > h1{
+      line-height: 50px;
+    }
+    .sec2 > p{
+      font-size: 25px;
+      line-height: 35px;
+    }
+    .venue{
+      height:120px;
+    }
+    .sec2 .more-mobile{
+      font-size: 30px;
+    }
+    .sec2 .goodbye{
+      font-size: 35px;
+      line-height: 50px;
+      height: auto;
+    }
+    .sec2 h1{
+      width: 85%;
+      margin-bottom: 0;
+      font-size: 40px;
+    }
+    .sec2 p{
+      width: 75%;
+      margin-top:0;
+    }
+    .sec2 .tools{
+      margin-top: 20px;
+    }
+    .logos .feature .butt {
+        height: 65px;
+        font-size: 16px;
+      }
+    .recommend .chrome svg{
+      margin-top: -5px;
+    }
     .sec3 h1{
       font-size: 45px;
     }
     .sec3 p{
       font-size: 25px;
     }
+    .email{
+      height: 220px;
+    }
+    .email h4{
+      margin-top: 55px;
+      font-size: 23px;
+    }
     .email form button{
-      font-size: 15px;
+      font-size: 13px;
       height: 40px;
+    }
+    .email form input{
+      height: 45px;
+    }
+  }
+  @media screen and (max-width:478px){
+    .sec2 h1{
+      font-size: 30px;
+    }
+    .sec2 p{
+      font-size: 20px;
+    }
+    .recommend{
+      height: 210px;
+    }
+    .logos .feature p{
+      font-size: 17px;
+    }
+    .logos .feature h3{
+      font-size: 20px;
+    }
+    
+    .email form button{
+      font-size: 12px;
+    }
+    
+  }
+  @media screen and (max-width:415px){
+    .sec1{
+      height: 650px;
+    }
+    .first-sentences > h1{
+      font-size: 26px;
+      line-height: 35px;
+    }
+    .first-sentences > p{
+      font-size: 17px;
+      line-height: 22px;
     }
   }
   
