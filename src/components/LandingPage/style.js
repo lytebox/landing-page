@@ -98,6 +98,8 @@ export const LandingPageContainer = styled.div`
     position: absolute;
     bottom: -120px;
     background-image: url(${whiteBackground});
+    background-size: cover;
+    background-repeat: no-repeat;
     z-index: 2;
     box-shadow: 0px 5.289px 34.3785px rgba(0, 0, 0, 0.09);
     border-radius: 6.61125px;
@@ -115,6 +117,7 @@ export const LandingPageContainer = styled.div`
     margin-top: 130px;
     font-size: 22px;
     line-height: 28px;
+    font-weight: bold;
   }
   .box p a {
     color: #31393c;
@@ -733,7 +736,14 @@ export const LandingPageContainer = styled.div`
   }
   @media screen and (max-width:415px){
     .sec1{
-      height: 650px;
+      height: 600px;
+      margin-top: -1px;
+    }
+    .first-buttons div{
+      height: 60px;
+    }
+    .first-buttons div p{
+      font-size: 17px;
     }
     .first-sentences > h1{
       font-size: 26px;
@@ -742,6 +752,57 @@ export const LandingPageContainer = styled.div`
     .first-sentences > p{
       font-size: 17px;
       line-height: 22px;
+    }
+    .box{
+      height: 200px;
+    }
+    .box h1{
+      margin-top: 70px;
+      font-size: 18px;
+      line-height: 23px;
+    }
+    .box p{
+      font-size: 12px;
+      margin-top: 30px;
+    }
+    .sec2{
+      margin-bottom:
+    }
+    .sec2 h1{
+      line-height: 40px;
+    }
+    .sec2 .goodbye{
+      font-size: 30px;
+      line-height: 40px;
+    }
+    .recommend{
+      height: 160px;
+      bottom: -70px;
+      margin-top: 40px;
+    }
+    .sec3{
+      padding-top: 100px;
+    }
+    .sec3 h1{
+      font-size: 30px;
+      line-height: 40px;
+    }
+    .sec3 p{
+      font-size: 23px;
+      line-height: 30px;
+    }
+    .email{
+      height: 180px;
+    }
+    .email h4{
+      margin-top: 30px;
+    }
+    .email form input{
+      height: 40px;
+    }
+    .email form button{
+      height: 35px;
+      font-size: 10px;
     }
   }
   

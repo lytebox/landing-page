@@ -21,6 +21,7 @@ export const NavBarContainer = styled.div`
             height: 100px;
             background-image: url(${logo});
             background-repeat: no-repeat;
+            background-position-y: bottom;
             background-size: contain;
         }
 
@@ -47,7 +48,7 @@ export const NavBarContainer = styled.div`
             display:none;
         }
         .logo{
-            min-width: 50%;
+            width: 50%;
             background-image: url(${logoMobile});
         }
         .burger{
@@ -59,5 +60,14 @@ export const NavBarContainer = styled.div`
             cursor: pointer;
         }
         
+    }
+    @media screen and (max-width:537px){
+        .burger svg{
+            width: 80px;
+            height: 40px;
+        }
+        .logo{
+            width: 60px;
+        }
     }
 `;
