@@ -792,10 +792,10 @@ export const LandingPageContainer = styled.div`
       line-height: 30px;
     }
     .email{
-      height: 180px;
+      height: 150px;
     }
     .email h4{
-      margin-top: 30px;
+      margin-top: 20px;
     }
     .email form input{
       height: 40px;
@@ -803,6 +803,117 @@ export const LandingPageContainer = styled.div`
     .email form button{
       height: 35px;
       font-size: 10px;
+    }
+    .bottom{
+      margin-top: 50px;
+    }
+    .bottom > svg{
+      width: 200px;
+    }
+    .bottom > p{
+      margin: 20px;
+    }
+    .bottom .logo-mobile{
+      width:30px;
+    }
+    
+  }
+  @media screen and (max-width:375px){
+    .sec1{
+      height: 550px;
+    }
+    .rectangle{
+      height: 16px;
+      width: 100px;
+    }
+    .first-buttons div{
+      height: 50px;
+    }
+    .first-buttons div p{
+      font-size: 12px;
+    }
+    .box{
+      height: 170px;
+    }
+    .box h1{
+      margin-top: 50px;
+    }
+    .sec2 h1{
+      height: auto;
+      margin-bottom: 25px;
+      font-size: 25px;
+      line-height: 30px;
+    }
+    .sec2 p{
+      font-size: 18px;
+      line-height: 25px;
+    }
+    .logos .feature svg{
+      width: 70%;
+    }
+    .logos .feature p{
+      font-size: 17px;
+    }
+    .logos .feature .butt{
+      height: 50px;
+      font-size: 13px;
+    }
+    .logos .more-mobile{
+      font-size:20px;
+      line-height: 24px;
+    }
+    .sec2 .loved{
+      height: auto;
+      margin-top: 30px;
+      margin-bottom: 25px;
+    }
+    .sec2 .announce{
+      width: 90%;
+      font-size: 17px;
+    }
+    .sec2 .goodbye{
+      height: auto;
+      font-size: 25px;
+      line-height: 30px;
+    }
+    .sec2 .tools{
+      width: 90%;
+    }
+    .recommend p{
+      font-size:16px;
+      margin-left: 2px;
+    }
+    .chrome-mobile{
+      width: 45px;
+    }
+    .sec3 h1{
+      font-size: 25px;
+      line-height: 30px;
+      margin-bottom: 20px;
+    }
+    .sec3 p{
+      font-size:18px;
+      line-height: 25px;
+      margin-bottom: 70px;
+    }
+    .email{
+      height: 130px;
+      border-radius: 5px;
+    }
+    .email h4{
+      font-size: 18px;
+    }
+    .email form input{
+      height: 30px;
+      border-radius: 5px;
+    }
+    
+    .email form button{
+      height: 30px;
+      font-size: 8px;
+    }
+    .bottom p{
+      margin-bottom: 15px;
     }
   }
   
