@@ -347,7 +347,6 @@ export const LandingPageContainer = styled.div`
     height: 75px;
     margin-left: 25px;
     cursor: pointer;
-<<<<<<< HEAD
    }
    .email form button:hover{
     background-color: #0056b3;
@@ -393,49 +392,6 @@ export const LandingPageContainer = styled.div`
         bottom: 0px;
       }
       .box h1 {
-=======
-  }
-  .bottom {
-    margin-top: 200px;
-    margin-bottom: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-  }
-  .bottom > p {
-    margin: 15px;
-  }
-  .bottom > div > svg {
-    margin: 0 10px 0 10px;
-    cursor: pointer;
-  }
-  .logo-mobile {
-    display: none;
-  }
-
-  @media screen and (max-width: 943px) {
-    .first-sentences {
-      width: 100%;
-    }
-    .first-sentences > h1 {
-      font-size: 50px;
-      width: 70%;
-    }
-    .first-sentences > p {
-      width: 50%;
-    }
-    .first-buttons {
-      width: 100%;
-    }
-    .box {
-      width: 85%;
-      height: 350px;
-      bottom: 0px;
-    }
-    .box h1 {
->>>>>>> 5f45869750aa7e6276b1b0098d0662d06695a5ca
       width: 65%;
       font-size: 40px;
       margin-top: 110px;
