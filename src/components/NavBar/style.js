@@ -4,10 +4,12 @@ import logoMobile from './logo-mobile.svg';
 
 export const NavBarContainer = styled.div`
     nav{
+        box-sizing: border-box;
         font-family: "Circular";
         background-color: #006ee5;
         height: 110px;
-        padding: 0 50px 0 50px;
+        width: 100%;
+        padding: 0 30px 0 30px;
         display: flex;
         align-items: flex-end;
         justify-content: space-between;
@@ -15,10 +17,11 @@ export const NavBarContainer = styled.div`
         
     }
     .logo{
-            min-width: 256px;
+            width: 256px;
             height: 100px;
             background-image: url(${logo});
             background-repeat: no-repeat;
+            background-position-y: bottom;
             background-size: contain;
         }
 
@@ -45,6 +48,7 @@ export const NavBarContainer = styled.div`
             display:none;
         }
         .logo{
+            width: 50%;
             background-image: url(${logoMobile});
         }
         .burger{
@@ -52,8 +56,18 @@ export const NavBarContainer = styled.div`
         }
         .burger svg{
             width: 100px;
-            height: 100px;
+            height: 50px;
+            cursor: pointer;
         }
         
+    }
+    @media screen and (max-width:537px){
+        .burger svg{
+            width: 80px;
+            height: 40px;
+        }
+        .logo{
+            width: 60px;
+        }
     }
 `;
