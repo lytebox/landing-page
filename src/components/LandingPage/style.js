@@ -321,6 +321,8 @@ export const LandingPageContainer = styled.div`
     height: 60px;
     background: #d9d9d9;
     border-radius: 10px;
+    font-size: 25px;
+    padding-left: 5px;
   }
   .email form button {
     background: #006ee5;
@@ -710,6 +712,7 @@ export const LandingPageContainer = styled.div`
     }
     .email form input{
       height: 45px;
+      font-size: 20px;
     }
   }
   @media screen and (max-width:478px){
@@ -799,6 +802,7 @@ export const LandingPageContainer = styled.div`
     }
     .email form input{
       height: 40px;
+      font-size: 18px;
     }
     .email form button{
       height: 35px;
