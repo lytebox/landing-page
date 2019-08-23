@@ -47,16 +47,56 @@ export const NavBarContainer = styled.div`
 
   @media screen and (max-width: 943px) {
     .menu{
-      display: block;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
       height: 100%;
-      width: 120%;
+      width: 100%;
       position: fixed;
       top: 0;
       background-color:#006ee5;
       background-image: url(${menuBackground});
       background-repeat: no-repeat;
+      background-size: 100%;
       background-position: bottom left;
       z-index:3;
+
+      font-family: "Circular";
+      color: #ffff;
+
+    }
+    .menu a{
+      text-decoration: none;
+      color: #ffff;
+    }
+    .menu h1{
+      font-size: 25px;
+      margin: 30px 0 30px 0;
+    }
+    .close-container{
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+      margin-bottom: 20px;
+    }
+
+    .close{
+      margin-top: 20px;
+      margin-right: 30px;
+      width: 30px;
+    }
+    .login{
+      margin-top: 20px;
+      color: #006ee5;
+      background-color: #ffff;
+      border-radius: 5px;
+      font-size: 25px;
+      width: 5rem;
+      text-align: center;
+    }
+    .login p{
+      margin: 5px;
     }
     .close{
       cursor: pointer;

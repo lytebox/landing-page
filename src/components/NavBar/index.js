@@ -8,7 +8,8 @@ const Menu = posed.div({
   shown: {
     x: 0,
     transition: {
-      type: 'spring', stiffness: 70
+      duration: 400,
+      ease: "anticipate"
     }
   },
   unshown: {
@@ -53,12 +54,14 @@ class NavBar extends Component {
           </div>
         </nav>
         <Menu className="menu" pose={this.state.showMenu ? "shown" : "unshown"}>
-          <svg className="close" onClick={this.clickHandler} width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M24 20.188L15.685 11.979L23.885 3.697L20.188 0L11.976 8.318L3.666 0.115L0 3.781L8.321 12.021L0.115 20.334L3.781 24L12.018 15.682L20.303 23.885L24 20.188Z" fill="white"/>
-          </svg>
-          <h1>PRODUCTS</h1>
-          <h1>PARTNERS</h1>
-          <div>Login</div>
+          <div className="close-container">
+            <svg className="close" onClick={this.clickHandler} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M24 20.188L15.685 11.979L23.885 3.697L20.188 0L11.976 8.318L3.666 0.115L0 3.781L8.321 12.021L0.115 20.334L3.781 24L12.018 15.682L20.303 23.885L24 20.188Z" fill="white"/>
+            </svg>
+          </div>
+          <a href="#"><h1>PRODUCTS</h1></a>
+          <a href="#"><h1>PARTNERS</h1></a>
+          <div className="login"><p>Login</p></div>
         </Menu>
       </NavBarContainer>
     );
