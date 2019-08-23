@@ -101,6 +101,7 @@ export const LandingPageContainer = styled.div`
   }
 
   .box {
+    opacity: 0;
     width: 940.75px;
     height: 517px;
     position: absolute;

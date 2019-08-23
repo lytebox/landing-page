@@ -11,8 +11,7 @@ const Box = posed.div({
     hover: {
         scale: 1.05
     },
-    shown: {opacity: 1, transition: { duration: 500 }},
-    unshown: {opacity: 0, transition: { duration: 1000 }}
+    shown: {opacity: 1, transition: { duration: 500 }}
 })
 
 export class LandingPage extends Component {
@@ -23,7 +22,6 @@ export class LandingPage extends Component {
     handleScroll = (event) => {
         let scrollTop = event.target.scrollingElement.scrollTop;
         this.setState({scrollTop: scrollTop})
-        console.log(this.state.scrollTop)
     }
 
     componentDidMount(){
@@ -53,7 +51,7 @@ export class LandingPage extends Component {
                     </div>
                     </div>
                 </div>
-                <Box className="box" pose={this.state.scrollTop >= 300 ? "shown" : "unshown"}>
+                <Box className="box" pose={this.state.scrollTop >= screen.height*0.1 ? "shown" : null}>
                     <h1>Our lyric displayer is open for public beta</h1>
                     <p>
                     <a href="#">Find out more</a>
