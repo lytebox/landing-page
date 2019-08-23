@@ -42,8 +42,14 @@ export const LandingPageContainer = styled.div`
 
     z-index: 1;
   }
+
+  @keyframes shown {
+    from { opacity:0; }
+    to { opacity: 1; }
+  }
   .first-sentences > h1 {
     margin-bottom: 0;
+    animation: shown 2s;
   }
 
   .first-sentences p {
@@ -55,6 +61,7 @@ export const LandingPageContainer = styled.div`
     font-size: 30px;
     width: 660px;
     margin: 50px;
+    animation: shown 3s;
   }
   #curve {
     position: absolute;
@@ -81,10 +88,19 @@ export const LandingPageContainer = styled.div`
     justify-content: center;
     cursor: pointer;
   }
-
+  @keyframes to-right {
+    0% { transform: translateX(${-screen.width}px); }
+    100% { transform: translateX(0); }
+  }
+  @keyframes to-left {
+    0% { transform: translateX(${screen.width}px); }
+    100% { transform: translateX(0); }
+  }
   .butt-try {
     background-color: #ffffff;
     color: #006ee5;
+    animation: to-right 0.7s;
+    
   }
   .butt-try:hover{
     background-color:#d9d9d9;
@@ -94,6 +110,7 @@ export const LandingPageContainer = styled.div`
     border: 3.51562px solid #ffffff;
     background-color: #006ee5;
     box-sizing: border-box;
+    animation: to-left 0.7s;
   }
   .butt-pricing:hover{
     background-color: #0056b3;

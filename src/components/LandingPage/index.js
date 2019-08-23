@@ -13,6 +13,15 @@ const Box = posed.div({
     },
     shown: {opacity: 1, transition: { duration: 500 }}
 })
+const Butt = posed.div({
+    hoverable: true,
+    init: {
+        scale: 1
+    },
+    hover: {
+        scale: 1.05
+    }
+})
 
 export class LandingPage extends Component {
     state = {
@@ -43,9 +52,9 @@ export class LandingPage extends Component {
                     and home uses.
                     </p>
                     <div className="first-buttons">
-                    <div className="butt-try">
+                    <Butt className="butt-try">
                         <p>Try for free</p>
-                    </div>
+                    </Butt>
                     <div className="butt-pricing">
                         <p>See pricing</p>
                     </div>
