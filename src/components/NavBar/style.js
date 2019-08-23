@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import logo from "./logo.svg";
 import logoMobile from "./logo-mobile.svg";
+import menuBackground from "./menu-background.svg";
 
 export const NavBarContainer = styled.div`
   nav {
@@ -14,6 +15,9 @@ export const NavBarContainer = styled.div`
     align-items: flex-end;
     justify-content: space-between;
     padding-top: 10px;
+  }
+  .menu{
+    display: none;
   }
   .logo {
     width: 256px;
@@ -42,6 +46,21 @@ export const NavBarContainer = styled.div`
   }
 
   @media screen and (max-width: 943px) {
+    .menu{
+      display: block;
+      height: 100%;
+      width: 120%;
+      position: fixed;
+      top: 0;
+      background-color:#006ee5;
+      background-image: url(${menuBackground});
+      background-repeat: no-repeat;
+      background-position: bottom left;
+      z-index:3;
+    }
+    .close{
+      cursor: pointer;
+    }
     ul {
       display: none;
     }
