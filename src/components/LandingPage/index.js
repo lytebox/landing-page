@@ -82,7 +82,7 @@ export class LandingPage extends Component {
                         </svg>
                         <h3>SERIF</h3>
                         <p>Lyric displayer webapp</p>
-                        <div className="butt try">Try for free</div>
+                        <div className="butt soon">Coming soon</div>
                         </div>
                         <div className="feature">
                         <svg

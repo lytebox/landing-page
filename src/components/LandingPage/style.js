@@ -245,10 +245,6 @@ export const LandingPageContainer = styled.div`
     justify-content: center;
     align-items: center;
   }
-  .logos .feature .butt:hover{
-    background-color: #0056b3;
-    transition: 0.2s ease-in;
-  }
   .try {
     background: #006ee5;
     cursor: pointer;
@@ -880,7 +876,7 @@ export const LandingPageContainer = styled.div`
       width: 70%;
     }
     .logos .feature p {
-      font-size: 17px;
+      font-size: 15px;
     }
     .logos .feature .butt {
       height: 50px;
