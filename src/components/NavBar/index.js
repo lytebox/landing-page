@@ -61,7 +61,7 @@ class NavBar extends Component {
           </div>
           <a href="#"><h1>PRODUCTS</h1></a>
           <a href="#"><h1>PARTNERS</h1></a>
-          <div className="login"><p>Login</p></div>
+          <a><div className="login"><p>Login</p></div></a>
         </Menu>
       </NavBarContainer>
     );

@@ -118,7 +118,6 @@ export const LandingPageContainer = styled.div`
   }
 
   .box {
-    opacity: 0;
     width: 940.75px;
     height: 517px;
     position: absolute;
@@ -796,9 +795,7 @@ export const LandingPageContainer = styled.div`
       font-size: 12px;
       margin-top: 30px;
     }
-    .sec2 {
-      margin-bottom: ;
-    }
+    
     .sec2 h1 {
       line-height: 40px;
     }

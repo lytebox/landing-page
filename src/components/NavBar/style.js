@@ -92,7 +92,8 @@ export const NavBarContainer = styled.div`
       background-color: #ffff;
       border-radius: 5px;
       font-size: 25px;
-      width: 5rem;
+      width: 7rem;
+      height: 2rem;
       text-align: center;
     }
     .login p{
