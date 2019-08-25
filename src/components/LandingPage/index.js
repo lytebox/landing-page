@@ -12,7 +12,7 @@ export class LandingPage extends Component {
         return (
             <LandingPageContainer>
                 <section className="sec1">
-                <Zoom clear>
+                <Fade clear>
                     <div className="first-sentences">
                         <h1>Modern multimedia suite for agile teams</h1>
                         <p>
@@ -28,7 +28,7 @@ export class LandingPage extends Component {
                             </div>
                         </div>
                     </div>
-                </Zoom>
+                </Fade>
                 <Fade bottom big>
                     <div className="box">
                         <h1>Our lyric displayer is open for public beta</h1>
@@ -52,7 +52,7 @@ export class LandingPage extends Component {
                 </svg>
                 </section>
                 <section className="sec2">
-                    <Bounce left>
+                    <Fade left>
                         <div className="rectangle" />
                         <h1>Tools like you’ve never seen before</h1>
                         <p>
@@ -60,7 +60,7 @@ export class LandingPage extends Component {
                             visual generator to event specific like Bible verses displayer. We got
                             you.
                         </p>
-                    </Bounce>
+                    </Fade>
                 <Zoom cascade right>
                     <div className="logos">
                         <div className="feature">
@@ -131,7 +131,7 @@ export class LandingPage extends Component {
                     <p className="more">... and more to come.</p>
                 </Zoom>
 
-                <Bounce>
+                <Fade>
                     <div className="rectangle" />
                     <h1 className="loved">Loved by venues</h1>
                     <p className="announce">
@@ -143,9 +143,9 @@ export class LandingPage extends Component {
                         <div className="venue" />
                         <div className="venue" />
                     </div>
-                </Bounce>
+                </Fade>
 
-                <Zoom right>
+                <Fade>
                     <div className="rectangle" />
                     <h1 className="goodbye">Say goodbye to ridiculous hardware specs</h1>
 
@@ -154,8 +154,8 @@ export class LandingPage extends Component {
                         expensive and ridiculously demanding softwares. Your browser is all you
                         need to run our tools suite.
                     </p>
-                </Zoom>
-                <Fade left>
+                </Fade>
+                <Bounce>
                     <div className="recommend">
                         <p>We recommend</p>
                         <div className="chrome">
@@ -188,17 +188,17 @@ export class LandingPage extends Component {
                         <p>Google Chrome</p>
                         </div>
                     </div>
-                </Fade>
+                </Bounce>
                 </section>
                 <section className="sec3">
-                <Fade right>
+                <Fade>
                     <h1>We are just getting started</h1>
                     <p>
                         If you are a local church, music venue, or just a multimedia enthusiast
                         in general. You’ll love what we’ll be releasing next.
                     </p>
                 </Fade>
-                <Fade left>
+                <Fade>
                     <div className="email">
                         <h4>Email</h4>
                         <form action="#">
