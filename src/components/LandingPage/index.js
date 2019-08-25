@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import Zoom from 'react-reveal/Zoom';
 import Fade from 'react-reveal/Fade';
-import Flip from 'react-reveal/Flip';
 import Bounce from 'react-reveal/Bounce';
-import LightSpeed from 'react-reveal/LightSpeed';
 
 import { LandingPageContainer } from "./style";
 
