@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import posed from "react-pose";
+import { Link } from "react-scroll";
 
 import { NavBarContainer } from "./style";
 
@@ -13,7 +14,11 @@ const Menu = posed.div({
     }
   },
   unshown: {
-    x: screen.width
+    x: screen.width,
+    transition: {
+      duration: 400,
+      ease: "anticipate"
+    }
   }
 })
 
@@ -30,14 +35,28 @@ class NavBar extends Component {
         <nav>
           <div className="logo" />
           <ul>
+            <Link
+              className="link"
+              activeClass="active"
+              to="products"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration= {500}>
+              PRODUCTS
+            </Link>
+            <Link
+            className="link"
+              activeClass="active"
+              to="partners"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration= {500}>
+              PARTNERS
+            </Link>
             <li>
-              <a href="#">PRODUCTS</a>
-            </li>
-            <li>
-              <a href="#">PARTNERS</a>
-            </li>
-            <li>
-              <a href="#">LOGIN</a>
+              <a href="#" className="link">LOGIN</a>
             </li>
           </ul>
           <div className="burger" onClick={this.clickHandler}>
@@ -59,9 +78,29 @@ class NavBar extends Component {
               <path d="M24 20.188L15.685 11.979L23.885 3.697L20.188 0L11.976 8.318L3.666 0.115L0 3.781L8.321 12.021L0.115 20.334L3.781 24L12.018 15.682L20.303 23.885L24 20.188Z" fill="white"/>
             </svg>
           </div>
-          <a href="#"><h1>PRODUCTS</h1></a>
-          <a href="#"><h1>PARTNERS</h1></a>
-          <a><div className="login"><p>Login</p></div></a>
+          <Link
+              onClick={this.clickHandler}
+              className="link"
+              activeClass="active"
+              to="products"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration= {500}>
+              PRODUCTS
+            </Link>
+            <Link
+              onClick={this.clickHandler}
+              className="link"
+              activeClass="active"
+              to="partners"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration= {500}>
+              PARTNERS
+            </Link>
+          <a href="#"><div className="login"><p>Login</p></div></a>
         </Menu>
       </NavBarContainer>
     );

@@ -44,6 +44,9 @@ export const NavBarContainer = styled.div`
     font-size: 18px;
     line-height: 23px;
   }
+  .link{
+    cursor: pointer;
+  }
 
   @media screen and (max-width: 943px) {
     .menu{
@@ -70,7 +73,7 @@ export const NavBarContainer = styled.div`
       text-decoration: none;
       color: #ffff;
     }
-    .menu h1{
+    .menu .link{
       font-size: 25px;
       margin: 30px 0 30px 0;
     }
@@ -93,11 +96,11 @@ export const NavBarContainer = styled.div`
       border-radius: 5px;
       font-size: 25px;
       width: 7rem;
-      height: 2rem;
+      height: 3rem;
       text-align: center;
-    }
-    .login p{
-      margin: 5px;
+      display:flex;
+      justify-content: center;
+      align-items: center;
     }
     .close{
       cursor: pointer;

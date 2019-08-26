@@ -54,7 +54,7 @@ export class LandingPage extends Component {
                 <section className="sec2">
                     <Fade left>
                         <div className="rectangle" />
-                        <h1>Tools like you’ve never seen before</h1>
+                        <h1 id="products">Tools like you’ve never seen before</h1>
                         <p>
                             From your essential multimedia tools like lyric-displayer and live
                             visual generator to event specific like Bible verses displayer. We got
@@ -133,7 +133,7 @@ export class LandingPage extends Component {
 
                 <Fade>
                     <div className="rectangle" />
-                    <h1 className="loved">Loved by venues</h1>
+                    <h1 className="loved" id="partners">Loved by venues</h1>
                     <p className="announce">
                         We are happy to announce that the followings venues are using our suite
                         of products, and they are delighted with the results.
