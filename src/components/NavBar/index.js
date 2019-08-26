@@ -16,8 +16,8 @@ const Menu = posed.div({
   unshown: {
     x: screen.width,
     transition: {
-      duration: 400,
-      ease: "anticipate"
+      duration: 100,
+      ease: "linear"
     }
   }
 })
