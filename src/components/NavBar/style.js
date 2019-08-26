@@ -15,6 +15,7 @@ export const NavBarContainer = styled.div`
     align-items: flex-end;
     justify-content: space-between;
     padding-top: 10px;
+    margin-bottom: -1px;
   }
   .menu{
     display: none;
@@ -116,18 +117,21 @@ export const NavBarContainer = styled.div`
       display: block;
     }
     .burger svg {
-      width: 100px;
+      width: 80px;
       height: 50px;
       cursor: pointer;
     }
   }
   @media screen and (max-width: 537px) {
+    nav{
+      height: 80px;
+    }
     .burger svg {
-      width: 80px;
-      height: 40px;
+      width: 60px;
+      height: 20px;
     }
     .logo {
-      width: 60px;
+      width: 50px;
     }
   }
 `;

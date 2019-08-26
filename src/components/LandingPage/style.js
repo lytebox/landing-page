@@ -399,6 +399,9 @@ export const LandingPageContainer = styled.div`
       .first-buttons{
         width:100%;
       }
+      .first-buttons div{
+        height: 100px;
+      }
       .box{
         width: 85%;
         height: 350px;
@@ -440,6 +443,7 @@ export const LandingPageContainer = styled.div`
     }
     .logos .feature .butt {
       width: 60%;
+      height: 100px;
     }
 
     .more {
@@ -766,7 +770,10 @@ export const LandingPageContainer = styled.div`
       margin-top: -1px;
     }
     .first-buttons div {
-      height: 60px;
+      height: 70px;
+      width: 150px;
+      margin-left: 20px;
+      margin-right: 20px;
     }
     .first-buttons div p {
       font-size: 17px;
@@ -799,6 +806,10 @@ export const LandingPageContainer = styled.div`
       font-size: 30px;
       line-height: 40px;
     }
+    .logos .feature .butt{
+      height: 70px;
+      width: 150px;
+    }
     .recommend {
       height: 160px;
       bottom: -70px;
@@ -816,18 +827,21 @@ export const LandingPageContainer = styled.div`
       line-height: 30px;
     }
     .email {
-      height: 150px;
+      height: 200px;
+      width: 95%;
     }
     .email h4 {
-      margin-top: 20px;
+      margin-top: 40px;
     }
     .email form input {
       height: 40px;
       font-size: 18px;
     }
     .email form button {
-      height: 35px;
-      font-size: 10px;
+      height: 45px;
+      width: 100px;
+      margin-left: 8px;
+      font-size: 15px;
     }
     .bottom {
       margin-top: 50px;
@@ -851,10 +865,14 @@ export const LandingPageContainer = styled.div`
       width: 100px;
     }
     .first-buttons div {
-      height: 50px;
+      height: 60px;
+      width: 120px;
+      margin-left: 10px;
+      margin-right: 10px;
     }
+
     .first-buttons div p {
-      font-size: 12px;
+      font-size: 15px;
     }
     .box {
       height: 170px;
@@ -879,7 +897,8 @@ export const LandingPageContainer = styled.div`
       font-size: 15px;
     }
     .logos .feature .butt {
-      height: 50px;
+      height: 60px;
+      width: 120px;
       font-size: 13px;
     }
     .logos .more-mobile {
@@ -921,21 +940,23 @@ export const LandingPageContainer = styled.div`
       margin-bottom: 70px;
     }
     .email {
-      height: 130px;
+      height: 180px;
       border-radius: 5px;
     }
     .email h4 {
       font-size: 18px;
     }
     .email form input {
-      height: 30px;
+      height: 35px;
       border-radius: 5px;
     }
-
     .email form button {
-      height: 30px;
-      font-size: 8px;
+      height: 40px;
+      width: 80px;
+      margin-left: 8px;
+      font-size: 15px;
     }
+    
     .bottom p {
       margin-bottom: 15px;
     }
